@@ -2,18 +2,26 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { BarradenavegacionComponent } from './compartido/barradenavegacion/barradenavegacion.component';
-import { PiedepaginaComponent } from './compartido/piedepagina/piedepagina.component';
 
-
+import { SeccionAcercadComponent } from './componentes/seccion-acercad/seccion-acercad.component';
+import { SeccionExperienciaComponent } from './componentes/seccion-experiencia/seccion-experiencia.component';
+import { SeccionEducacionComponent } from './componentes/seccion-educacion/seccion-educacion.component';
+import { SeccionComunComponent } from './componentes/seccion-comun/seccion-comun.component';
+import { SeccionHardyskillComponent } from './componentes/seccion-hardyskill/seccion-hardyskill.component';
+import { SeccionProyectosComponent } from './componentes/seccion-proyectos/seccion-proyectos.component';
+import { SeccionBannerComponent } from './componentes/seccion-banner/seccion-banner.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BarradenavegacionComponent,
-    PiedepaginaComponent,
-    
+    SeccionAcercadComponent,
+    SeccionExperienciaComponent,
+    SeccionEducacionComponent,
+    SeccionComunComponent,
+    SeccionHardyskillComponent,
+    SeccionProyectosComponent,
+    SeccionBannerComponent
     
     
   ],

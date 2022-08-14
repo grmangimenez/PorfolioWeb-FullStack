@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PiedepaginaComponent } from './piedepagina.component';
+import { SeccionAcercadComponent } from './seccion-acercad.component';
 
-describe('PiedepaginaComponent', () => {
-  let component: PiedepaginaComponent;
-  let fixture: ComponentFixture<PiedepaginaComponent>;
+describe('SeccionAcercadComponent', () => {
+  let component: SeccionAcercadComponent;
+  let fixture: ComponentFixture<SeccionAcercadComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PiedepaginaComponent ]
+      declarations: [ SeccionAcercadComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PiedepaginaComponent);
+    fixture = TestBed.createComponent(SeccionAcercadComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
