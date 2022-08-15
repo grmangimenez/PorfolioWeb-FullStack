@@ -12,6 +12,7 @@ import { SeccionProyectosComponent } from './componentes/seccion-proyectos/secci
 import { SeccionBannerComponent } from './componentes/seccion-banner/seccion-banner.component';
 
 import { SeccionComunModule } from './componentes/seccion-comun/seccion-comun.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -32,7 +33,7 @@ import { SeccionComunModule } from './componentes/seccion-comun/seccion-comun.mo
     
   ],
   imports: [
-    BrowserModule, SeccionComunModule
+    BrowserModule, SeccionComunModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
