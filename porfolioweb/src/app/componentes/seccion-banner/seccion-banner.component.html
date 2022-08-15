@@ -3,12 +3,13 @@
 
         <div class="container-fluid p-1 d-inline-flex" style="background-color:black;">
             <div class="container-flex p-1">
-                <img class=" img-fluid rounded-circle  rounded border-0 p-0" style="max-width:100px;" src=".\assets\seccion-banner\img\yo.jpg"
-                    alt="yo">
+                <img class=" img-fluid rounded-circle  rounded border-0 p-0" style="max-width:100px;" [src]=banner.imagen.img
+                    [alt]=banner.imagen.alt>
             </div>
+            
             <div class="container-fluid bg-black  align-items-center justify-content-center border border-2 rounded-5 ">
                 <p style="color:green;">GG:</p>
-                <p style="color:green;" class="px-5" id="mensaje">hola mundo como va en este dia caluroso</p>
+                <p style="color:green;" class="px-5" id="mensaje">{{banner.mensaje}}</p>
             </div>
         </div>
 

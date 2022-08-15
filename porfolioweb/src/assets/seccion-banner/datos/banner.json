@@ -1,0 +1,7 @@
+{
+    "imagen": {
+        "img": "./assets/seccion-banner/img/yo.jpg",
+        "alt": "yo"
+    },
+    "mensaje": "hola soy German"
+}
