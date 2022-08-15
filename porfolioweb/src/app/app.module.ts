@@ -6,10 +6,15 @@ import { AppComponent } from './app.component';
 import { SeccionAcercadComponent } from './componentes/seccion-acercad/seccion-acercad.component';
 import { SeccionExperienciaComponent } from './componentes/seccion-experiencia/seccion-experiencia.component';
 import { SeccionEducacionComponent } from './componentes/seccion-educacion/seccion-educacion.component';
-import { SeccionComunComponent } from './componentes/seccion-comun/seccion-comun.component';
+
 import { SeccionHardyskillComponent } from './componentes/seccion-hardyskill/seccion-hardyskill.component';
 import { SeccionProyectosComponent } from './componentes/seccion-proyectos/seccion-proyectos.component';
 import { SeccionBannerComponent } from './componentes/seccion-banner/seccion-banner.component';
+
+import { SeccionComunModule } from './componentes/seccion-comun/seccion-comun.module';
+
+
+
 
 
 @NgModule({
@@ -18,15 +23,16 @@ import { SeccionBannerComponent } from './componentes/seccion-banner/seccion-ban
     SeccionAcercadComponent,
     SeccionExperienciaComponent,
     SeccionEducacionComponent,
-    SeccionComunComponent,
     SeccionHardyskillComponent,
     SeccionProyectosComponent,
-    SeccionBannerComponent
+    SeccionBannerComponent,
+    
+    
     
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule, SeccionComunModule
   ],
   providers: [],
   bootstrap: [AppComponent]

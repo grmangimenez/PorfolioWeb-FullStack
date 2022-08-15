@@ -1,0 +1,13 @@
+
+{
+    "titulo": "",
+    "descripcion": "",
+    "imagen": {
+        "img": "",
+        "alt": ""
+    },
+    "vinculo": {
+        "etiqueta": "",
+        "link": "#"
+    }
+}

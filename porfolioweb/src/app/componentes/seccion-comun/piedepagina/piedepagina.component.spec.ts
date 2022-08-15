@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SeccionComunComponent } from './seccion-comun.component';
+import { PiedepaginaComponent } from './piedepagina.component';
 
-describe('SeccionComunComponent', () => {
-  let component: SeccionComunComponent;
-  let fixture: ComponentFixture<SeccionComunComponent>;
+describe('PiedepaginaComponent', () => {
+  let component: PiedepaginaComponent;
+  let fixture: ComponentFixture<PiedepaginaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SeccionComunComponent ]
+      declarations: [ PiedepaginaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SeccionComunComponent);
+    fixture = TestBed.createComponent(PiedepaginaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
